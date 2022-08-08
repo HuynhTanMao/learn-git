@@ -30,7 +30,9 @@ git checkout master // chuyen working directory sang branch "master"
 
 git merge trang-chu // chuyen nhung thay doi tu branch "trang-chu" sang branch "master"
 
-git branch -D <<branch>> // vd git branch -D trang-chu: xóa branch "trang-chu" sau khi hoàn thành tính năng để làm sạch master
+git branch -d <<branch>> // vd git branch -D trang-chu: xóa branch "trang-chu" sau khi hoàn thành tính năng để làm sạch master
+
+or git push origin --delete <<branch>> vd git push origin --delete main: xóa branch "main" trên trang github.com (delete branch remotely)
 
 git reset --soft <<id-commit>> //chuyen file tu trang thái commit sang trạng thái stage area // lay id commit git log or gitk, vd: git reset --soft
 
