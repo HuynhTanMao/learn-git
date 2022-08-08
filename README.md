@@ -4,7 +4,7 @@ git init  //phải cùng cấp thư mục
 
 git add README.md
 
-git add . // add all file in current folder
+or git add . // add all file and folder in current folder
 
 git status
 
