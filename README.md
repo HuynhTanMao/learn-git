@@ -20,13 +20,13 @@ git push // up load lên git online
 
 git pull // download tu online ve local
 
-git restore <<file>> // xoa thay doi gat nhat
+git restore <file> // xoa thay doi gat nhat
 
-git reset <<file>> // huy file o trang thai staging -> working directory
+git reset <file> // huy file o trang thai staging -> working directory
 
 git branch // show tat cac cac branch, muc dich cua viec tao nhieu branch để viet them tinh nang moi ma khong thay doi cau truc ban dau
 
-git checkout - b <<branch>> // vd: "git checkout -b trang-chu" => tao them branch "trang-chu", chuyen working directory sang branch "trang-chu"
+git checkout - b <branch> // vd: "git checkout -b trang-chu" => tao them branch "trang-chu", chuyen working directory sang branch "trang-chu"
 
 git checkout master // chuyen working directory sang branch "master"
 
@@ -36,8 +36,8 @@ git branch -d <<branch>> // vd git branch -D trang-chu: xóa branch "trang-chu" 
 
 or git push origin --delete <<branch>> vd git push origin --delete main: xóa branch "main" trên trang github.com (delete branch remotely)
 
-git reset --soft <<id-commit>> //chuyen file tu trang thái commit sang trạng thái stage area // lay id commit git log or gitk, vd: git reset --soft
+git reset --soft <id-commit> //chuyen file tu trang thái commit sang trạng thái stage area // lay id commit git log or gitk, vd: git reset --soft
 
-git reset --mixed <<id-commit>> //chuyen file tu trang thái commit sang trạng thái working directory // lay id commit git log or gitk, vd: git reset --soft
+git reset --mixed <id-commit> //chuyen file tu trang thái commit sang trạng thái working directory // lay id commit git log or gitk, vd: git reset --soft
 
-git reset --hard <<id-commit>> // chuyen file tu trang thai commit sang xóa hẳn file
+git reset --hard <id-commit> // chuyen file tu trang thai commit sang xóa hẳn file
