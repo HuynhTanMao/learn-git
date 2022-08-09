@@ -20,7 +20,7 @@ git push // up load lên git online
 
 git pull // download tu online ve local
 
-git restore `<file>` // xoa thay doi gat nhat
+git restore <file> // xoa thay doi gat nhat
 
 git reset <file> // huy file o trang thai staging -> working directory
 
